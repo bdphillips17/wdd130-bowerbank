@@ -1,0 +1,194 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.button:hover {
+    background-color: #b71c1c;
+}
+
+/* Home Page */
+.hero {
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    text-align: center;
+    width: 15%;
+    min-width: 120px;
+    margin: 10px;
+}
+
+.feature-card img {
+    width: 100%;
+    max-width: 100px;
+}
+
+.about-us {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Page Layouts */
+.page-layout {
+    display: flex;
+    padding: 20px;
+    min-height: 60vh;
+}
+
+.sidebar {
+    width: 250px;
+    background: #fff;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.sidebar input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.info-box {
+    flex-grow: 1;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    gap: 20px;
+}
+
+.info-box img {
+    max-width: 200px;
+}
+
+/* Signup Form */
+.signup-layout {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    min-height: 60vh;
+}
+
+.signup-form-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.signup-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form-container label {
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.signup-form-container input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.signup-form-container button {
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer img {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+footer nav {
+    margin: 15px 0;
+}
