@@ -192,3 +192,16 @@ footer img {
 footer nav {
     margin: 15px 0;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
